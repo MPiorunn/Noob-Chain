@@ -18,6 +18,8 @@ public class Block {
         this.hash = calculateHash();
     }
 
+
+
     public String calculateHash() {
         return StringUtil.applySha256(
                 previousHash +
